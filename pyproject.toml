@@ -1,0 +1,15 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "fastapi-etag-cache"
+version = "0.1.0"
+description = "Automatic ETag calculation and HTTP 304 Not Modified middleware for FastAPI."
+readme = "README.md"
+license = "MIT"
+authors = [{ name = "me1121118" }]
+keywords = ["fastapi", "etag", "caching", "http-304", "performance", "bandwidth"]
+dependencies = [
+    "fastapi>=0.100.0",
+]
